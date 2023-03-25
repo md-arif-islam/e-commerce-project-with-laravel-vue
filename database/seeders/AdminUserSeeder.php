@@ -2,14 +2,12 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder {
+class AdminUserSeeder extends Seeder {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
@@ -21,6 +19,5 @@ class DatabaseSeeder extends Seeder {
             "email_verified_at" => now(),
             "is_admin" => true,
         ] );
-
     }
 }
