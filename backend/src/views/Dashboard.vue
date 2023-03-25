@@ -1,11 +1,13 @@
 <template>
-    <div>Dashboard View</div>
+  <h1>Dashboard</h1>
 </template>
 
 <script>
 export default {
-    name: "Dashboard",
-};
+  name: "Dashboard"
+}
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>
